@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+.vertical-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    
+  }
+
+ion-content{
+    --ion-background-color:#0F1E47;
+}
+
+ion-img{
+    width: 20vh;
+    animation: fadein 4s linear;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+@keyframes fadein {
+    from {
+      opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
