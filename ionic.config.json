@@ -1,0 +1,7 @@
+{
+  "name": "StudentCare",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
